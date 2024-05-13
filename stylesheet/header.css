@@ -1,0 +1,112 @@
+.cabecalho {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background);
+}
+
+.container__imagem{
+    width: 20%;
+    min-width: 10em;
+    padding: 1em;
+    margin: auto;
+}
+
+.img {
+    width: 100%;
+}
+
+.container__pesquisa-categoria {
+    margin: auto;
+    min-width: 40%;
+}
+
+.container__pesquisa{
+    display: flex;
+    margin: 6px -25px 20px 50px;
+}
+
+.barra-pesquisa {
+    border: 1px solid var(--branco);
+    color: var(--preto);
+    border-radius: 24px;
+    height: 50px; /* Ajuste a altura da barra de pesquisa */
+    padding: 0 20px; /* Ajuste o padding interno conforme necessário */
+    display: flex; /* Adicionar display flex para alinhar o texto verticalmente */
+    align-items: center; /* Alinhar o texto verticalmente ao centro */
+}
+
+.barra-pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    color: var(--cor-texto);
+}
+
+input {
+    box-sizing: border-box;
+    font-size: 19px;
+    width: 80%;
+}
+
+.container_pesquisa_btn {
+    position: relative;
+    background-color: var(--preto);
+    right: 2.6em;
+    border-radius: 0 23px 23px 0;
+    padding: 6px 10px;
+}
+
+.container_pesquisa_btn:hover {
+    background-color: var(--preto-hover);
+}
+
+.container__categorias {
+    padding: 1em;
+}
+
+.cabecalho__categorias{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecalho__categorias__lista{
+    padding-right: 17px;
+}
+
+.cabecalho__categorias__lista__categoria {
+    color: black;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cabecalho__categorias__lista__categoria:hover{
+    color: #9b3b3b;
+}
+
+.container__contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.contato__paragrafo {
+    font-weight: 500;
+}
+
+.contato__link {
+    color: var(--preto);
+}
+
+.contato__link:hover{
+    font-weight: 600;
+}

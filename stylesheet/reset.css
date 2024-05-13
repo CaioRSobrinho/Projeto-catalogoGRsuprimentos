@@ -1,0 +1,23 @@
+/* Reset CSS */
+
+/* Definir a margem e o preenchimento padrão para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluir a borda e o preenchimento no cálculo do tamanho */
+  }
+  
+  /* Remover o estilo padrão da lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover o sublinhado dos links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Definir uma fonte padrão para garantir a consistência */
+  body {
+    font-family: Arial, sans-serif;
+  }

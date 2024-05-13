@@ -1,0 +1,20 @@
+@import url(./stylesheet/reset.css);
+@import url(./stylesheet/header.css);
+
+:root {
+--branco: #fff;
+--preto: #000000;
+--preto-hover:#414141;
+--hover-categoria: #9b3b3b;
+--background: #ffe4c4;
+--cor-textoPrincipal: #fff;
+--fonte-principal: "Poppins";
+}
+
+body{
+    background-color: var(--background);
+    font-size: 16px;
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    height: 100vw;
+}
